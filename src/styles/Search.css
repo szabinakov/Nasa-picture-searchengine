@@ -1,0 +1,6 @@
+.searchInput {
+    background: linear-gradient(21deg, #10abff36, #1beabd33);
+    height: 20px;
+    width: 200px;
+    border-color: darkred;
+}
