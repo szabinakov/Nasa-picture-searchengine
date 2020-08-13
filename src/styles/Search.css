@@ -4,3 +4,11 @@
     width: 200px;
     border-color: darkred;
 }
+
+.searchForm{
+    display: flex;
+}
+
+.searchButton {
+    background-color: rgba(0, 191, 255, 0.39);
+}
