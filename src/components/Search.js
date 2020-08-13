@@ -7,7 +7,7 @@ const Search = ({setSearchResult}) => {
 
     const handleSubmit = async(event) => {
         event.preventDefault()
-        await getImages(value)
+        setSearchResult(await getImages(value))
     }
     return(
     <>

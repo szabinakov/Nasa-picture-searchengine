@@ -16,7 +16,7 @@ function App() {
       alt='nasalogo'/>
       <Search setSearchResult={setSearchResult}/>
     </div>
-     <SearchResult/>
+     <SearchResult results={searchResult}/>
     </>
   );
 }
