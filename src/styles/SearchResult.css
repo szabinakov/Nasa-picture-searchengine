@@ -1,0 +1,23 @@
+body {
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.imageContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%
+}
+
+
+.imageOnScreen {
+    margin-top: 100px;
+    border: solid;
+    width: 30%;
+    height: 100%;
+    border-width: 10px;
+    border-radius: 30px;
+    border-color: white;
+}
+

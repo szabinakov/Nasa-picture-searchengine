@@ -1,4 +1,6 @@
 import React from 'react'
+import PropTypes from 'prop-types'
+import '../styles/SearchResult.css'
 
 
 const SearchResult = ({results}) => {
@@ -16,4 +18,7 @@ const SearchResult = ({results}) => {
 
 }
 
+SearchResult.propTypes = {
+    results: PropTypes.array
+}
 export default SearchResult 

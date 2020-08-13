@@ -1,14 +1,20 @@
-.searchInput {
-    background: linear-gradient(21deg, #10abff36, #1beabd33);
-    height: 20px;
-    width: 200px;
-    border-color: darkred;
+.searchForm {
+    display: flex;
+    flex-direction: row;
 }
 
-.searchForm{
-    display: flex;
+.searchInput {
+    padding:10px;
+    border:0;
+    border-radius: 2%;
+    box-shadow:0 0 15px 4px rgb(2, 1, 1);
 }
 
 .searchButton {
-    background-color: rgba(0, 191, 255, 0.39);
+    width: 80px;
+    background-color: rgba(12, 6, 2, 0.788);
+    box-shadow:0 0 15px 4px rgb(2, 1, 1);
+    color: rgb(211, 5, 5);
+    font-style: bold;
+    border:0;
 }
