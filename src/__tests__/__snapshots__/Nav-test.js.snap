@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Nav it renders correctly 1`] = `
+<DocumentFragment>
+  <nav>
+    <ul>
+      <a
+        href="/"
+      >
+        <li
+          class="Link"
+        >
+          Home
+        </li>
+      </a>
+      <a
+        href="/about"
+      >
+        <li
+          class="Link"
+        >
+          About
+        </li>
+      </a>
+    </ul>
+  </nav>
+</DocumentFragment>
+`;
