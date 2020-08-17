@@ -4,16 +4,20 @@ import '../styles/SearchResult.css'
 
 
 const SearchResult = ({results}) => {
-    const foundImages = results.map((image) => 
-    <img className='imageOnScreen' src={image} alt='imageOfResult'></img>)
+    const images = results.map((image) => image.links[0].href)
+
+    const foundImages = images.map((image, index) => 
+    <img key={index} className='imageOnScreen' src={image} alt='imageOfResult'></img>
+    )
 
     if(!results.length) {
         return <p>No Results!</p>
     } else {
     return(
-        <div className='imageContainer'>
-        <>{foundImages}</>
-        </div>
+            <ul className='imageContainer'>
+                <li>{foundImages}</li>
+            </ul>
+        
     )}
 
 }

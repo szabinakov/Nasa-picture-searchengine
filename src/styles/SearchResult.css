@@ -1,23 +1,28 @@
 body {
     font-size: 30px;
     font-family: 'Courier New', Courier, monospace;
+    background-color: rgba(192, 192, 192, 0.37);
 }
+
 
 .imageContainer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 100%
+    width: 100%;
 }
 
-
 .imageOnScreen {
+    margin: 10px;
     margin-top: 100px;
     border: solid;
-    width: 30%;
+    width: 40%;
     height: 100%;
     border-width: 10px;
     border-radius: 30px;
-    border-color: white;
+    border-color: rgb(172, 6, 6);
 }
 
+.imageOnScreen:hover {
+    border-color: rgb(255, 0, 0);
+}

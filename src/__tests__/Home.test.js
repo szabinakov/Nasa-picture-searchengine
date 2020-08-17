@@ -1,9 +1,9 @@
 import React from 'react';
 import { render } from '@testing-library/react';
-import App from '../components/App.js';
+import Home from '../components/Home.js';
 
-describe('App', () => {
-    const { asFragment } = render (<App/>)
+describe('Home', () => {
+    const { asFragment } = render (<Home/>)
 
     it('renders correctly', () => {
 

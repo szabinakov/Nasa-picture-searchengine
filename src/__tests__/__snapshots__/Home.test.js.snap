@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home renders correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="Home"
+  >
+    <img
+      alt="nasalogo"
+      class="nasaLogo"
+      src=" https://cdn.cnn.com/cnnnext/dam/assets/200424060716-nasa-worm-logo.jpg"
+    />
+    <form
+      class="searchForm"
+    >
+      <input
+        class="searchInput"
+        type="text"
+      />
+      <button
+        class="searchButton"
+        type="submit"
+      >
+        Search!
+      </button>
+    </form>
+  </div>
+  <p>
+    No Results!
+  </p>
+</DocumentFragment>
+`;

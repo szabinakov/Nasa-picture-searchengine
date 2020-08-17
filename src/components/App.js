@@ -1,22 +1,22 @@
-import React, {useState} from 'react';
-import '../styles/App.css';
+import React from 'react';
 
-import Search from './Search'
-import SearchResult from './SearchResult';
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
+
+import Nav from './Nav'
+import Home from './Home'
+import About from './About'
 
 function App() {
-  const [searchResult, setSearchResult] = useState([])
-
+  
   return (
     <>
-    <div className="App">
-      <img 
-      className='nasaLogo'
-      src=' https://cdn.cnn.com/cnnnext/dam/assets/200424060716-nasa-worm-logo.jpg' 
-      alt='nasalogo'/>
-      <Search setSearchResult={setSearchResult}/>
-    </div>
-     <SearchResult results={searchResult}/>
+      <Router>
+        <Nav/>
+          <Switch>
+            <Route path='/' exact component={Home}/>
+            <Route path='/about' component={About}/>
+          </Switch>
+      </Router>
     </>
   );
 }
