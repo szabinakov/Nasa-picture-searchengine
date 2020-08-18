@@ -9,7 +9,7 @@ GET​​ ​​https://images-api.nasa.gov/search ​Params: ​​q`
 ![computer pic](ProjectPic1.png)
 
 ### How it looks like on Phone
-![phone pic](ProjectPic2.png)
+![phone pic](ProjectPic2.png){:height="50%" width="50%"}
 
 ### Built with
 React
