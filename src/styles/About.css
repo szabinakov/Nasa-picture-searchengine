@@ -1,6 +1,6 @@
 .aboutContainer {
     margin: auto;
-    width: 50%;
+    width: 70%;
     border: solid rgb(172, 6, 6);
     padding: 10px;
     background-color: white;
@@ -13,4 +13,16 @@
 .aboutLink {
     text-decoration: underline;
     color: blue;
+}
+
+@media screen and (max-width: 500px){
+
+    .aboutContainer {
+        width: 80%;
+        margin-top: 80px;
+    }
+
+    p {
+        font-size: 15px;
+    }
 }
