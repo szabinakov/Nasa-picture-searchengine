@@ -43,9 +43,7 @@ body {
 @media screen and (max-width: 550px) {
 
     .imageOnScreen {
-        height: 200px;
-        width: auto;
-        max-width: 320px;
+        max-width: 300px;
         padding: 0%;
     }
 }

@@ -5,13 +5,34 @@ Part of my course at Manchester Codes I have been asked to build a React web app
 `image search:
 GET​​ ​​https://images-api.nasa.gov/search ​Params: ​​q`
 
+### How it looks like on Computer
+![computer pic](ProjectPic1.png)
+
+### How it looks like on Phone
+![phone pic](ProjectPic2.png)
+
 ### Built with
 React
 
 ### Testing with
-+ Jest
-+ React Testing Library
++ [Jest](https://www.npmjs.com/package/jest)
++ [React Testing Library](https://testing-library.com/docs/dom-testing-library/intro)
 
 ### Used Packages
-+ Axios
-+ PropTypes
++ [Axios](https://www.npmjs.com/package/axios)
++ [PropTypes](https://www.npmjs.com/package/prop-types)
+
+### Run the App
+Clone Repository 
+`git clone https://github.com/szabinakov/tech-test.git`
+Move to the directory and install npm
+`npm init`
+Run the app on your localhost
+`npm start`
+
+#### Author
+Szabina Kovacs
+
+### The deployed version you can check out: [here](https://tech-test.vercel.app/)
+
+
