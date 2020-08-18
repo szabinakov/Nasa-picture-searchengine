@@ -40,12 +40,12 @@ body {
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 550px) {
 
     .imageOnScreen {
         height: 200px;
-        
         width: auto;
-        max-width: 300px;
+        max-width: 320px;
+        padding: 0%;
     }
 }
