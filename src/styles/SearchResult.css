@@ -3,26 +3,25 @@ body {
     font-family: 'Courier New', Courier, monospace;
     background-color: rgba(192, 192, 192, 0.37);
 }
-
-
 .imageContainer {
-    display: flex;
+    margin-top: 80px;
+    display: flexbox;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 100%;
+    justify-content: center;
 }
 
 .imageOnScreen {
-    margin: 10px;
+    margin: 20px;
+    height: 300px;
+    border: solid rgb(172, 6, 6)
+}
+.welcomeMessage {
     margin-top: 100px;
-    border: solid;
-    width: 40%;
-    height: 100%;
-    border-width: 10px;
-    border-radius: 30px;
-    border-color: rgb(172, 6, 6);
+    text-align: center;
 }
 
 .imageOnScreen:hover {
     border-color: rgb(255, 0, 0);
 }
+

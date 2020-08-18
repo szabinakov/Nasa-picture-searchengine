@@ -3,7 +3,6 @@ import '../styles/Home.css';
 
 import Search from './Search'
 import SearchResult from './SearchResult';
-import ImageDescription from './ImageDescription'
 
 function Home() {
   const [searchResult, setSearchResult] = useState([])
@@ -18,7 +17,6 @@ function Home() {
       <Search setSearchResult={setSearchResult}/>
     </div>
      <SearchResult results={searchResult}/>
-     
     </>
   );
 }
