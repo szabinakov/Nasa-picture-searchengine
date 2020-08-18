@@ -5,10 +5,7 @@ body {
 }
 .imageContainer {
     margin-top: 80px;
-    display: flexbox;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
+    text-align: center;
 }
 
 .imageOnScreen {
@@ -25,3 +22,17 @@ body {
     border-color: rgb(255, 0, 0);
 }
 
+
+@media screen and (max-width: 800px) {
+    .imageContainer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        height: 200px;
+    }
+
+    .imageOnScreen {
+        height: 200px;
+        width: auto;
+    }
+}
